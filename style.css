@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #f8e8ee;
+}
+
+header h1 {
+    color: #d63384;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: #fde2e4;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #d63384;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+.product img {
+    width: 200px;
+}
+
+.product button {
+    background: #d63384;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.about, .contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact input, .contact textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f8e8ee;
+}
